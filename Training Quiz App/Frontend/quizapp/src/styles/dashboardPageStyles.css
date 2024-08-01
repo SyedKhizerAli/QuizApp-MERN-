@@ -1,0 +1,154 @@
+/* General styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7f9;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.dashboard-header {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00122143;
+}
+
+.dashboard-main {
+
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.test-info {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.test-info h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.instructions, .honest-respondent, .test-start-form {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.honest-respondent, .test-start-form {
+  width: 50%;
+  margin: 5px;
+}
+
+.instructions h3, .honest-respondent h3, .test-start-form h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.test-start-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.test-start-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+}
+
+.viewQuizzes {
+  position: relative;
+  background-color: #00bf56;
+  border: none;
+  color: #fff;
+  padding: 5px;
+  margin: 10px;
+  width: 98%;
+  left: 5px;
+}
+
+.viewQuizzes:hover {
+  background-color: #008f40;
+}
+
+.test-start-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #00bf56;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  width: 20%;
+}
+
+.test-start-form button:hover {
+  background-color: #00a58d;
+}
+
+.dashboard-footer {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-top: 1px solid #eaeaea;
+  text-align: center;
+}
+
+.example {
+  flex: 1;
+  padding: 0px 20px;
+  width: 95%;
+  max-height: 50px;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  align-self: center;
+}
+
+.example h2 {
+  font-size: 18px;
+  padding: 0px 20px;
+}
+
+.thirdcombo {
+  display: flex;
+  flex-direction: row;
+}
+
+.logout {
+  position: relative;
+  background-color: #00bf56;
+  border: none;
+  color: #fff;
+  padding: 5px;
+  margin: 0px 10px;
+  width: 98%;
+  left: 5px;
+}
+
+.logout:hover {
+  background-color: #00a58d;
+}

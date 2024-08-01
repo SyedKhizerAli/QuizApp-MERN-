@@ -1,0 +1,86 @@
+.results {
+  /* Removed fixed width for responsive design */
+  margin: auto;
+  padding: 20px;
+  border-radius: 4px; /* Added rounded corners for a modern look */
+  background-color: #f8f8f8; /* Subtle light gray background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional subtle shadow effect */
+}
+
+.result-item {
+  margin-bottom: 10px; /* Reduced margin for tighter layout */
+  padding: 15px 20px; /* Added padding for content spacing */
+  border-bottom: 1px solid #ddd; /* Light border to separate items */
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: space-between; /* Align items horizontally */
+}
+
+.result-item h3 {
+  margin-bottom: 5px;
+  font-size: 18px; /* Increased font size for headings */
+}
+
+.result-item p, .result-item ul {
+  margin: 0;
+  font-size: 16px; /* Increased font size for content */
+  line-height: 1.5; /* Added line-height for readability */
+}
+
+.result-item ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 5px 0; /* Added margin for spacing */
+}
+
+.result-item ul li {
+  margin-bottom: 5px;
+}
+
+.result-item.result-summary { /* Added styling for result-summary class */
+  border-bottom: none; /* Remove border for summary section */
+}
+
+.result-item.result-summary p:last-child { /* Target last paragraph in summary */
+  margin-bottom: 0; /* Remove margin from last paragraph */
+}
+
+.dashboard-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #00bf56; /* Blue button color */
+  color: #fff; /* White button text */
+  border: none; /* Removed border for a cleaner look */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Indicate clickable button */
+}
+
+.dashboard-btn:hover { 
+  background-color: #009141; 
+}
+
+.savediv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.save {
+  background-color: #f6f6f6;
+  color: rgb(0, 0, 0);
+  padding: 10px 0px;
+  height: 50%;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #353836;
+  width:10%
+}
+
+.save:hover {
+  color: #00bf56;
+  background-color: #f6f6f6;
+  border-color: #00bf56;
+}
+

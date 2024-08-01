@@ -1,0 +1,61 @@
+
+  
+  /* Login and Signup Specific Styles */
+  .auth-screen {
+    position: relative;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 420px;
+    padding: 2rem;
+    text-align: center;
+    left:35%;
+    margin-top:10%;
+    padding-right: 50px;
+  }
+  
+  .auth-screen h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .auth-screen .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .auth-screen .form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .auth-screen .form-group input:focus {
+    border-color: #00bf56;
+    outline: none;
+  }
+  
+  .auth-screen button {
+    background-color: #00bf56;
+    border: none;
+    color: #fff;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    margin-left:10px;
+  }
+  
+  .auth-screen button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .auth-screen .error-message {
+    color: #ff0000;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+  }
+  

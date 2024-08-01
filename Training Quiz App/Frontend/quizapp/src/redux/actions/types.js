@@ -1,0 +1,5 @@
+export const SET_USER = 'SET_USER';
+export const LOGOUT_USER = 'LOGOUT_USER';
+export const SET_QUIZ_RESULTS = 'SET_QUIZ_RESULTS';
+export const SET_CURRENT_QUIZ = 'SET_CURRENT_QUIZ';
+export const RESET_QUIZ_STATE = 'RESET_QUIZ_STATE';
